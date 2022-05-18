@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Exercicio" representedClassName="Exercicio" syncable="YES" codeGenerationType="class">
+        <attribute name="imagem" optional="YES" attributeType="Transformable"/>
+        <attribute name="nome" optional="YES" attributeType="String"/>
+        <attribute name="observacao" optional="YES" attributeType="String"/>
+        <relationship name="treino" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Treino" inverseName="exercicios" inverseEntity="Treino"/>
+    </entity>
+    <entity name="Treino" representedClassName="Treino" syncable="YES" codeGenerationType="class">
+        <attribute name="dataTreino" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="descricaoTreino" optional="YES" attributeType="String"/>
+        <attribute name="nomeTreino" optional="YES" attributeType="String"/>
+        <relationship name="exercicios" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Exercicio" inverseName="treino" inverseEntity="Exercicio"/>
+    </entity>
+    <elements>
+        <element name="Exercicio" positionX="136.109375" positionY="9.83984375" width="128" height="103"/>
+        <element name="Treino" positionX="-113.57421875" positionY="7.0546875" width="128" height="103"/>
+    </elements>
 </model>

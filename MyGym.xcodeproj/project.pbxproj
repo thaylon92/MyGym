@@ -9,23 +9,37 @@
 /* Begin PBXBuildFile section */
 		267FF37328302F4200D758E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267FF37228302F4200D758E8 /* AppDelegate.swift */; };
 		267FF37528302F4200D758E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267FF37428302F4200D758E8 /* SceneDelegate.swift */; };
-		267FF37728302F4200D758E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267FF37628302F4200D758E8 /* ViewController.swift */; };
 		267FF37A28302F4200D758E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267FF37828302F4200D758E8 /* Main.storyboard */; };
 		267FF37D28302F4200D758E8 /* MyGym.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 267FF37B28302F4200D758E8 /* MyGym.xcdatamodeld */; };
 		267FF37F28302F4700D758E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267FF37E28302F4700D758E8 /* Assets.xcassets */; };
 		267FF38228302F4700D758E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267FF38028302F4700D758E8 /* LaunchScreen.storyboard */; };
+		267FF38F2833157900D758E8 /* ExercicioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267FF38E2833157900D758E8 /* ExercicioTableViewController.swift */; };
+		267FF3932833162100D758E8 /* ExercicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267FF3922833162100D758E8 /* ExercicioViewController.swift */; };
+		267FF3962833166C00D758E8 /* AddEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267FF3952833166C00D758E8 /* AddEditViewController.swift */; };
+		267FF39B2834595E00D758E8 /* MeuTreinoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267FF39A2834595E00D758E8 /* MeuTreinoTableViewController.swift */; };
+		267FF39E283459F100D758E8 /* MeuTreinoExercicioTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267FF39D283459F100D758E8 /* MeuTreinoExercicioTableViewController.swift */; };
+		267FF3A128345A3B00D758E8 /* EditTreinoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267FF3A028345A3B00D758E8 /* EditTreinoViewController.swift */; };
+		267FF3AD28346A5700D758E8 /* treinos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267FF3AC28346A5700D758E8 /* treinos.swift */; };
+		267FF3B028348FFA00D758E8 /* ViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267FF3AF28348FFA00D758E8 /* ViewController+CoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		267FF36F28302F4200D758E8 /* MyGym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGym.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267FF37228302F4200D758E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		267FF37428302F4200D758E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		267FF37628302F4200D758E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		267FF37928302F4200D758E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		267FF37C28302F4200D758E8 /* MyGym.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyGym.xcdatamodel; sourceTree = "<group>"; };
 		267FF37E28302F4700D758E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		267FF38128302F4700D758E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		267FF38328302F4700D758E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267FF38E2833157900D758E8 /* ExercicioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercicioTableViewController.swift; sourceTree = "<group>"; };
+		267FF3922833162100D758E8 /* ExercicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercicioViewController.swift; sourceTree = "<group>"; };
+		267FF3952833166C00D758E8 /* AddEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditViewController.swift; sourceTree = "<group>"; };
+		267FF39A2834595E00D758E8 /* MeuTreinoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuTreinoTableViewController.swift; sourceTree = "<group>"; };
+		267FF39D283459F100D758E8 /* MeuTreinoExercicioTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeuTreinoExercicioTableViewController.swift; sourceTree = "<group>"; };
+		267FF3A028345A3B00D758E8 /* EditTreinoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTreinoViewController.swift; sourceTree = "<group>"; };
+		267FF3AC28346A5700D758E8 /* treinos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = treinos.swift; sourceTree = "<group>"; };
+		267FF3AF28348FFA00D758E8 /* ViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+CoreData.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +74,45 @@
 			children = (
 				267FF37228302F4200D758E8 /* AppDelegate.swift */,
 				267FF37428302F4200D758E8 /* SceneDelegate.swift */,
-				267FF37628302F4200D758E8 /* ViewController.swift */,
-				267FF37828302F4200D758E8 /* Main.storyboard */,
+				267FF3AC28346A5700D758E8 /* treinos.swift */,
+				267FF3AF28348FFA00D758E8 /* ViewController+CoreData.swift */,
+				267FF3A328345A8F00D758E8 /* controllerTabBarExercicio */,
+				267FF3A428345AFE00D758E8 /* controllerTabBarTreino */,
+				267FF3A528345B2B00D758E8 /* Views */,
 				267FF37E28302F4700D758E8 /* Assets.xcassets */,
-				267FF38028302F4700D758E8 /* LaunchScreen.storyboard */,
 				267FF38328302F4700D758E8 /* Info.plist */,
 				267FF37B28302F4200D758E8 /* MyGym.xcdatamodeld */,
 			);
 			path = MyGym;
+			sourceTree = "<group>";
+		};
+		267FF3A328345A8F00D758E8 /* controllerTabBarExercicio */ = {
+			isa = PBXGroup;
+			children = (
+				267FF3952833166C00D758E8 /* AddEditViewController.swift */,
+				267FF3922833162100D758E8 /* ExercicioViewController.swift */,
+				267FF38E2833157900D758E8 /* ExercicioTableViewController.swift */,
+			);
+			path = controllerTabBarExercicio;
+			sourceTree = "<group>";
+		};
+		267FF3A428345AFE00D758E8 /* controllerTabBarTreino */ = {
+			isa = PBXGroup;
+			children = (
+				267FF39A2834595E00D758E8 /* MeuTreinoTableViewController.swift */,
+				267FF39D283459F100D758E8 /* MeuTreinoExercicioTableViewController.swift */,
+				267FF3A028345A3B00D758E8 /* EditTreinoViewController.swift */,
+			);
+			path = controllerTabBarTreino;
+			sourceTree = "<group>";
+		};
+		267FF3A528345B2B00D758E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				267FF37828302F4200D758E8 /* Main.storyboard */,
+				267FF38028302F4700D758E8 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +185,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				267FF37728302F4200D758E8 /* ViewController.swift in Sources */,
+				267FF39E283459F100D758E8 /* MeuTreinoExercicioTableViewController.swift in Sources */,
 				267FF37D28302F4200D758E8 /* MyGym.xcdatamodeld in Sources */,
+				267FF3AD28346A5700D758E8 /* treinos.swift in Sources */,
+				267FF3A128345A3B00D758E8 /* EditTreinoViewController.swift in Sources */,
+				267FF3B028348FFA00D758E8 /* ViewController+CoreData.swift in Sources */,
+				267FF39B2834595E00D758E8 /* MeuTreinoTableViewController.swift in Sources */,
+				267FF3932833162100D758E8 /* ExercicioViewController.swift in Sources */,
+				267FF3962833166C00D758E8 /* AddEditViewController.swift in Sources */,
+				267FF38F2833157900D758E8 /* ExercicioTableViewController.swift in Sources */,
 				267FF37328302F4200D758E8 /* AppDelegate.swift in Sources */,
 				267FF37528302F4200D758E8 /* SceneDelegate.swift in Sources */,
 			);
@@ -299,7 +351,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = thaylon.com.br.MyGym;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,7 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = thaylon.com.br.MyGym;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
